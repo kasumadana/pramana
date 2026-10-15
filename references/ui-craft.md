@@ -100,3 +100,15 @@ Rules for visual hierarchy, layout, color, typography, and motion.
 ### Tap Targets & Mobile Discipline
 - Mobile touch targets must meet the minimum **44px x 44px** area.
 - Zero horizontal overflow: viewports down to 375px must remain completely contained without horizontal scrollbars.
+
+---
+
+## 7. Surface Crafting Protocol (For `craft [surface]`)
+
+When invoked with `craft [surface]`:
+
+1. **Resolve Surface Mode:** Establish whether the interface is **Persuade**, **Operate**, **Read**, or **Experience**.
+2. **Commit Surface Language:** Pick either flat 1px hairlines OR subtle multi-layer shadows. Never blend them into muddy ghost-cards.
+3. **Establish Hierarchy & Spacing:** Maximize information scannability. Cap card nesting at 1 level. Constrain prose columns to 65–75ch.
+4. **Enforce State Completeness:** Implement explicit **Loading**, **Empty**, and **Error** states for all asynchronous data surfaces.
+5. **Implement Keyboard & Touch Affordances:** Ensure focus outlines are visible, inputs handle `Enter`/`Escape`, and touch viewports provide natural momentum.

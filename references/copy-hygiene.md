@@ -103,3 +103,24 @@ Never blindly mirror raw, unformatted technical dumps if the target industry mai
 ### Example: Financial & Quantities
 - Raw database dumps (`12500000`) must be formatted according to locale conventions (`Rp 12.500.000` or `$12,500`).
 - Round unmanageable floating-point metrics (`98.2349182%` -> `98.2%`) unless cryptographic or scientific precision is strictly required.
+
+---
+
+## 5. Copy Cleansing Protocol (For `cleanse [target]`)
+
+When invoked with `cleanse [target]` on copy or content:
+
+1. **Scan Banned Vocabulary:** Identify and replace all synthetic filler verbs, metaphors, and hollow adjectives.
+2. **Neutralize Syntactic Traps:** Eliminate em-dashes (`—`), binary contrasts (*"Not X, but Y"*), and universal nets (*"Whether you are..."*).
+3. **Restore Agency:** Convert passive constructions to active human or system actions. Strip conversational chatbot fluff.
+4. **Normalize Domain Values:** Format currency, numbers, and technical specifications into authentic domain notations.
+5. **Output Cleanse Diff:**
+
+```markdown
+### Copy Cleanse: [Target Section / File]
+
+| Element | Slop (Incumbent) | Pramana (Cleansed) | Rationale |
+|---|---|---|---|
+| Headline | *"Empowering teams to orchestrate seamless database journeys."* | *"Branch and migrate PostgreSQL schemas without downtime."* | Replaced hollow verbs with concrete algorithmic action. |
+| Subhead | *"Whether you're a CTO or a curious hobbyist—we elevate your workflow."* | *"Zero-lock migrations for production web services."* | Removed universal opener, em-dash, and buzzwords. |
+```

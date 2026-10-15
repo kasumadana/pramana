@@ -92,3 +92,15 @@ Rules for environment boundaries, cloud container ingress, type discipline, and 
 
 ### Machine Metadata Leakage
 - Never expose internal LLM instructions, prompt configuration files, or machine files (`llms.txt`) as public links in primary human navigation menus.
+
+---
+
+## 6. Runtime Boundary Audit Protocol
+
+When auditing or hardening runtime systems:
+
+1. **Grep Client Code for Secrets:** Run grep across `src/`, `public/`, and client bundles for `process.env`, secret tokens, and private API keys.
+2. **Inspect Server Listener:** Verify entry points bind to `"0.0.0.0"` with dynamic port resolution (`process.env.PORT || 8080`).
+3. **Verify Build Target:** Inspect `package.json` to ensure `"scripts.build"` is defined and runs cleanly.
+4. **Scan Error Handlers:** Flag and replace empty `catch {}` blocks with telemetry logging and resilient fallback UI.
+5. **Enforce Type Narrowing:** Replace instances of `as any` or `@ts-ignore` with explicit zod schemas or type guard functions.

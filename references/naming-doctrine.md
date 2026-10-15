@@ -98,3 +98,25 @@ Before finalizing an app or tool name, pass it through this gate:
 2. **Is it free of synthetic suffixes (`-X`, `-ify`, `-ly`, `-in`)?** If it has a tacked-on modifier, strip it.
 3. **Does it carry an organic linguistic root or tangible physical metaphor?** If it is empty corporate jargon, replace it.
 4. **Can you say it out loud without cringing?** If it sounds like a cheap AI generation, start over.
+
+---
+
+## 5. Naming Generation Protocol (For `name [concept]`)
+
+When invoked with `name [concept]`, execute this sequence:
+
+1. **Deconstruct the Core Mechanism:** Identify the underlying physical action, architectural primitive, or primary user transformation (e.g. schema migration -> branching, splitting, anchor).
+2. **Select 3 Distinct Linguistic Roots:**
+   - Candidate A: Sanskrit lineage (philosophical clarity or natural balance).
+   - Candidate B: Latin / Greek / Norse lineage (tactile structure or raw tool).
+   - Candidate C: Tangible English noun (everyday object or physical phenomenon).
+3. **Verify via the 4-Question Gate:** Eliminate any option failing a single question.
+4. **Output the Recommendation:**
+
+```markdown
+### 1. [Candidate Name] (Primary Recommendation)
+- **Linguistic Root / Etymology:** [e.g., Sanskrit *Pramāṇa* (valid proof / authoritative reality)]
+- **Core Metaphor:** [Why it describes the mechanism, not the feature list]
+- **Cadence & Phonetics:** [Pronunciation and spoken gravitas]
+- **Sample Usage:** [e.g., `pramana audit --strict`, "Built on Pramana"]
+```
