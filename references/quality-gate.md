@@ -51,3 +51,10 @@ Before reporting completion to the user, verify that each statement below is tru
 - [ ] **Build Target Present:** `package.json` contains a valid `"build"` script.
 - [ ] **Error Hygiene:** Zero empty catch blocks. Failures record structured telemetry and render fallback UI.
 - [ ] **Functional Interactive Elements:** Every button and navigation link executes real behavior. No dead `#` anchors or non-functional mock buttons.
+
+### E. Code Craft, YAGNI & Ghost Filter
+- [ ] **Comment Cleanliness:** Zero decorative separators (`// ===`), zero syntax echoes, zero workflow narrations (`// Step 1`), zero emojis in comments. Comments explain non-obvious *why*, never *what*.
+- [ ] **The Minimal Ladder (YAGNI):** Zero unrequested speculative abstractions (no 1-implementation interfaces, single-class factories, or dead boilerplate). Standard library and native platform features used before external dependencies.
+- [ ] **DRY Compliance:** Zero copy-pasted blocks of business logic or duplicated algorithmic calculations.
+- [ ] **Zero Scope Creep:** Diff is strictly constrained to requested scope. Zero unprompted rewrites of unrelated files.
+- [ ] **The Ghost Filter (Zero Self-Branding):** Zero occurrences of framework names (`pramana` or self-referential tags) in generated code, inline comments, variable names, or commit messages.

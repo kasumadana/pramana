@@ -44,7 +44,7 @@ Language models suffer from a statistical bias toward bloated, hyperbolic adject
 
 **The Rule:** Replace hollow buzzwords with concrete verbs that describe the exact physical or algorithmic action:
 - *Slop:* *"Empowering developers to orchestrate seamless database workflows."*
-- *Pramana:* *"Migrate and branch PostgreSQL schemas without downtime."*
+- *Clean:* *"Migrate and branch PostgreSQL schemas without downtime."*
 
 ---
 
@@ -119,7 +119,7 @@ When invoked with `cleanse [target]` on copy or content:
 ```markdown
 ### Copy Cleanse: [Target Section / File]
 
-| Element | Slop (Incumbent) | Pramana (Cleansed) | Rationale |
+| Element | Slop (Incumbent) | Cleansed | Rationale |
 |---|---|---|---|
 | Headline | *"Empowering teams to orchestrate seamless database journeys."* | *"Branch and migrate PostgreSQL schemas without downtime."* | Replaced hollow verbs with concrete algorithmic action. |
 | Subhead | *"Whether you're a CTO or a curious hobbyist—we elevate your workflow."* | *"Zero-lock migrations for production web services."* | Removed universal opener, em-dash, and buzzwords. |

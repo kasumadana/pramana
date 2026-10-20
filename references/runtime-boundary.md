@@ -51,7 +51,7 @@ Rules for environment boundaries, cloud container ingress, type discipline, and 
   ```
 - **Rule:** Catch blocks must log structured error details and provide an observable user fallback:
   ```javascript
-  // ✅ PRAMANA: Telemetry recorded, recovery state rendered
+  // Record telemetry and render user recovery state
   try {
     await processPayment();
   } catch (error) {

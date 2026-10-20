@@ -118,5 +118,5 @@ When invoked with `name [concept]`, execute this sequence:
 - **Linguistic Root / Etymology:** [e.g., Sanskrit *Pramāṇa* (valid proof / authoritative reality)]
 - **Core Metaphor:** [Why it describes the mechanism, not the feature list]
 - **Cadence & Phonetics:** [Pronunciation and spoken gravitas]
-- **Sample Usage:** [e.g., `pramana audit --strict`, "Built on Pramana"]
+- **Sample Usage:** [e.g., `aksa inspect --strict`, "Powered by Aksa"]
 ```
